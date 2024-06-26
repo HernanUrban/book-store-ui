@@ -9,13 +9,15 @@ import { BookListComponent } from './components/book-list/book-list.component';
 
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { VersionComponent } from './components/version/version.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddBookComponent,
     BookDetailsComponent,
-    BookListComponent
+    BookListComponent,
+    VersionComponent
   ],
   imports: [
     BrowserModule,
